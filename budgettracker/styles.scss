@@ -1,0 +1,68 @@
+@mixin animations {
+    background: linear-gradient(135deg, #a9c9ff, #f7a8b8);
+  }
+  $primary-color:  #72328e;
+  @mixin dark-pastel-gradient {
+    background: linear-gradient(135deg, #6c5b7b, #c06c84, #f67280);
+  }
+  
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    @include dark-pastel-gradient;
+}
+
+.all{
+    width: 75%;
+    margin: auto; 
+    border: 1px solid black;
+    margin-top: 10%;
+    @include animations;
+    padding: 5%;
+}
+
+.headers{
+    text-align: center;
+    font-size: 1.5rem;
+   
+    padding: 30px;
+}
+h1{
+    font-size: 40px;
+    color: $primary-color;
+}
+.allform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  
+}
+.form1, .form2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+button{
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #A5E3E0;
+    width: auto;
+    margin: 15px;
+    
+}
+
+
+#budgetAmount, #bill, #amount{
+   padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 20px;
+    margin: 10px;
+}

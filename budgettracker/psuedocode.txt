@@ -1,0 +1,60 @@
+
+when button is clicked, display text in input box to the screen
+    - onclick function
+    - make it display
+    - grab the text inside
+    
+i need to define where the text needs to go
+i need to grab the text inside the box
+I need to make sure the numbers add to previous number
+I need to log everything that is typed in the box to the screen
+
+
+I need to make a skeleton for the object by using a constructor
+    - all bills, income amount, expense amount, remaining balance
+I need to push new values into the constructor
+Will need a method for each of those
+
+add a bill
+update budget
+display the budget
+display the transactions
+
+
+
+
+
+
+// let budgetAmount = document.getElementById("budget").value
+// let bill = document.getElementById("bill").value
+// let amount = document.getElementById("amount").value
+// let amountDisplay = document.getElementById("amountdisplay")
+// let expenseDisplay = document.getElementById("expensedisplay")
+// let amountLeftDisplay = document.getElementById("amountleftdisplay")
+// amountLeftDisplay.value = 'test :3';
+
+
+
+
+// function submit(){
+
+// var amountValue = amountDisplay.value;
+// var budgetDisplay = document.getElementById("budgetdisplay");
+// budgetDisplay.textContent = "" + budgetAmount;
+// budgetAmount 
+
+ 
+
+// }
+
+// function submit() {
+//     // Get the value of budgetAmount
+//     let budgetAmount = document.getElementById("budget").value;
+
+//     // Display the value in amountDisplay
+//     let amountDisplay = document.getElementById("amountdisplay");
+//     amountDisplay.textContent = `Budget Amount: ${budgetAmount}`;
+
+// }
+
+
